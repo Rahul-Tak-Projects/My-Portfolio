@@ -1,44 +1,60 @@
-# vCard - Personal portfolio
+# Rahul Tak - Web Developer Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+A responsive portfolio website built with pure HTML, CSS, and JavaScript to showcase my projects and skills.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## 🔗 Live Link
+[Visit Portfolio](https://your-portfolio-link.com) *(replace with your actual URL)*
 
-## Demo
+---
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 👨‍💻 About Me
+I'm a **Web Developer** from Jodhpur, India pursuing B.E. in Information Technology. I specialize in:
+- Building responsive websites with HTML5, CSS3, JavaScript
+- Creating intuitive user interfaces
+- Writing clean, maintainable code
 
-## Prerequisites
+## 🛠️ Skills
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Tools**: Git, VS Code
+- **Currently Learning**: React.js, Java DSA
 
-Before you begin, ensure you have met the following requirements:
+---
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+## 📌 Projects
 
-## Installing vCard
+### 1. Job Finder Website
+- Pure HTML/CSS design for job search platform
+- Responsive layout for all devices
 
-To install **vCard**, follow these steps:
+### 2. Student Data Verification System
+- Streamlined student admission verification
+- JavaScript form validation
 
-Linux and macOS:
+### 3. MediPlus Healthcare Website
+- Clean UI for healthcare services
+- Mobile-first design approach
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+---
 
-Windows:
+## 📚 Education
+- **MBM University, Jodhpur**  
+  B.E. in IT (2024–2027)  
+- **Govt. Polytechnic College, Jodhpur**  
+  Diploma in CSE (2022–2024) | CGPA: 9.59/10  
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+## 💼 Experience
+- **Web Developer Intern** @ Open Innovation Lab (2024)  
+  - Improved frontend performance  
+  - Enhanced user experience  
 
-## Contact
+---
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+## 📩 Contact
+- **Email**: rahultaktech@gmail.com  
+- **Phone**: +91 9001635796  
+- **Location**: Jodhpur, Rajasthan  
+- **LeetCode**: Rahul-Tak  
 
-## License
+---
 
-MIT
+*Portfolio created with vanilla HTML, CSS, and JavaScript*

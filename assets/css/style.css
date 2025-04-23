@@ -2,15 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -334,6 +325,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .info-content .name {
@@ -1337,13 +1329,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 30px;overflow: hidden; }
 
   .avatar-box img { width: 120px; }
 
-  .info-content .name { margin-bottom: 15px; }
+  /* .info-content .name { margin-bottom: 15px; } */
 
-  .info-content .title { padding: 5px 18px; }
+  /* .info-content .title { padding: 5px 18px; } */
 
   .info_more-btn {
     top: -30px;
@@ -1829,7 +1821,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     z-index: 1;
   }
 
@@ -1879,4 +1871,57 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.skills-title {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 1.5rem;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.064); */
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  color: #fff;
+  border: #3e3e3e 2px solid;
+}
+
+/* .skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+} */
+
+.skill-card h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: #c7ac5d; /* Tailwind's green-400 like color */
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #d4d4d4;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  header a {
+    margin-left: 0;
+    margin-top: 0px;
+    width: 90%;
+    justify-content: center;
+  }
 }
