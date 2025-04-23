@@ -3,7 +3,7 @@
 A responsive portfolio website built with pure HTML, CSS, and JavaScript to showcase my projects and skills.
 
 ## 🔗 Live Link
-[Visit Portfolio](https://your-portfolio-link.com) *(replace with your actual URL)*
+[Visit Portfolio](https://rahul-tak-projects.github.io/My-Portfolio/) *(replace with your actual URL)*
 
 ---
 
